@@ -23,4 +23,29 @@
 
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
+yarn-error.log* 
+
+# Python / Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite DB
+db.sqlite3
+
+# Environment variables
+.env
+
+# Virtual env
+venv/
+env/
+
+# Static files
+staticfiles/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
