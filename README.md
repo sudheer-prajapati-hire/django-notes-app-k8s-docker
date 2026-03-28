@@ -27,5 +27,8 @@ docker run -d -p 8000:8000 notes-app:latest
 
 Install Nginx reverse proxy to make this application available
 
+# Access
+kubectl port-forward service/notes-app-service 8000:8000 -n notes-app
+
 `sudo apt-get update`
 `sudo apt install nginx`
